@@ -25,10 +25,10 @@ test("escape character", function() {
 
 test("string.length", function() {
     var fruit = "apple";
-    equal(__, fruit.length, 'what is the value of fruit.length?');
+    equal(5, fruit.length, 'what is the value of fruit.length?');
 });
 
 test("slice", function() {
     var fruit = "apple pie";
-    equal(__, fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
+    equal("apple", fruit.slice(0,5), 'what is the value of fruit.slice(0,5)?');
 });
